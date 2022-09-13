@@ -1,0 +1,52 @@
+{
+    "ID_баг_репорта":"1",
+    "Приоритет":"Высокий",
+    "Заголовок":"Фавикон не соответствует макету",
+    "Шаги_воспроизведения":
+    {
+      "1":"Открыть https://",
+      "2":"Сравнить фавикон сайта с макетом"
+    },
+    "Ожидаемый_результат":"Фавикон сайта совпадает с макетом",
+    "Фактический_результат":"Фавикон сайта не соответствует макету",
+    
+
+    "Bug_id":"2",
+    "Priority":"High",
+    "Summary":"There's an extra element on the page - 'Go' button",
+    "Steps to reproduce":
+    {
+      "1":"Open page https://",
+      "2":"Compare the page to the design mockup"
+    },
+    "Expected result":"There should be no extra elements on the page as compared to the mockup",
+    "Actual result":"There's an extra element on the page as compared to the mockup",
+
+
+    "Bug_id":"3",
+    "Priority":"High",
+    "Summary":"Request passing an empty value for parameter deliveryTime returns 200 OK as response",
+    "Steps to reproduce":
+    {
+      "1":"Open Postman collection Prilavok",
+      "2":"Check that URL in environment section is up-to-date",
+      "3":"Check that the method used is POST",
+      "4":"Check that endpoint is /fast-delivery/v3.1.1/calculate-delivery.xml",
+      "5":"In body section leave content between xml tags deliveryTime empty",
+      "6":"Send request"
+    },
+    "Expected result":"Request returns client error 4xx",
+    "Actual result":"Request returns 200 OK as response",
+   
+    
+    "ID_баг_репорта":"4",
+    "Приоритет":"Высокий",
+    "Заголовок":"Фавикон не соответствует макету",
+    "Шаги_воспроизведения":
+    {
+      "1":"Открыть https://",
+      "2":"Сравнить фавикон сайта с макетом"
+    },
+    "Ожидаемый_результат":"Фавикон сайта совпадает с макетом",
+    "Фактический_результат":"Фавикон сайта не соответствует макету",
+  }
