@@ -1,5 +1,5 @@
 {
-    "Id_тест_кейса":"1",
+    "ID_тест_кейса":"1",
     "Заголовок":"Валидация поля 'Идентификатор': проверка ограничения длины значения больше 50 (ГЗ)",
     "Предусловие":"Открыть сайт https:// под учетной записью (логин/пароль)",
     "Шаги":
@@ -12,7 +12,7 @@
     "Ожидаемый_результат":"Вопрос не сохраняется",
 
 
-    "Test_case_id":"2",
+    "Test_case_ID":"2",
     "Title":"No internet connection notification disappears when tapping OK",
     "Prerequisite":
     {
@@ -29,26 +29,26 @@
     "Expected_result":"No internet connection notification disappears",
 
 
-    "ID":"3",
-    "Test_case_title":"Deleting a basket using request with non-existent basket id value",
-    "Prerequisites":
+    "Test_case_ID":"3",
+    "Title":"Deleting a basket using request with non-existent basket id value",
+    "Prerequisite":
     {
         "1":"Open Postman collection Prilavok"
     },
-    "Test_case_steps":
+    "Steps":
     {
         "1":"Choose a request from collection which deletes a basket",
         "2":"Check that the method used is DELETE",
         "3":"Check that URL in Environment section is up-to-date",
         "4":"Request /api/v1/orders/:id with non-existent id value"
     },
-    "Test_case_xpected_result":"This request returns 404 Not Found as response",
+    "Expected_result":"This request returns 404 Not Found as response",
     
 
     "ID_тест_кейса":"4",
-    "Заголовок_тест_кейса":"В блоке вывода результата отображается название выбранного вида транспорта 'Такси', изображение такси и кнопка 'Вызвать такси'",
-    "Предусловия":"Открыть сайт https:// 'Маршруты'",
-    "Шаги_тест_кейса":
+    "Заголовок":"В блоке вывода результата отображается название выбранного вида транспорта 'Такси', изображение такси и кнопка 'Вызвать такси'",
+    "Предусловие":"Открыть сайт https:// 'Маршруты'",
+    "Шаги":
     {
         "1":"Заполнить поле часы значением 01",
         "2":"Заполнить поле минуты значением 00",
@@ -57,5 +57,5 @@
         "5":"Выбрать режим Свой",
         "6":"Выбрать вид транспорта Такси"   
     },
-    "Ожидаемый_результат_тест_кейса":"В блоке вывода результа отобразится корректное название выбранного вида транспорта 'Такси', картинка такси, кнопка 'Вызвать такси'"
+    "Ожидаемый_результат":"В блоке вывода результа отобразится корректное название выбранного вида транспорта 'Такси', картинка такси, кнопка 'Вызвать такси'"
 }
