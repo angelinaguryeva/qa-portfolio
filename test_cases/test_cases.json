@@ -1,6 +1,6 @@
 {
     "Id_тест_кейса":"1",
-    "Заголовок":"Валидация поля 'Идентификатор': проверка ограничения длины значения больше 50 (ГЗ",
+    "Заголовок":"Валидация поля 'Идентификатор': проверка ограничения длины значения больше 50 (ГЗ)",
     "Предусловие":"Открыть сайт https:// под учетной записью (логин/пароль)",
     "Шаги":
     {
@@ -26,9 +26,36 @@
         "2":"Tap any active button",
         "3":"Tap OK on the notification appeared"
     },
-    "Expected result":"No internet connection notification disappears",
+    "Expected_result":"No internet connection notification disappears",
 
 
+    "ID":"3",
+    "Test_case_title":"Deleting a basket using request with non-existent basket id value",
+    "Prerequisites":
+    {
+        "1":"Open Postman collection Prilavok"
+    },
+    "Test_case_steps":
+    {
+        "1":"Choose a request from collection which deletes a basket",
+        "2":"Check that the method used is DELETE",
+        "3":"Check that URL in Environment section is up-to-date",
+        "4":"Request /api/v1/orders/:id with non-existent id value"
+    },
+    "Test_case_xpected_result":"This request returns 404 Not Found as response",
+    
 
-
+    "ID_тест_кейса":"4",
+    "Заголовок_тест_кейса":"В блоке вывода результата отобразится название выбранного вида транспорта 'Такси', изображение такси и кнопка 'Вызвать такси'",
+    "Предусловия":"Открыть сайт https:// 'Маршруты'",
+    "Шаги_тест_кейса":
+    {
+        "1":"Заполнить поле часы значением 01",
+        "2":"Заполнить поле минуты значением 00",
+        "3":"Ввести в поле Откуда адрес Хамовнический Вал 34",
+        "4":"Ввести в поле Куда адрес М Пироговская 25",
+        "5":"Выбрать режим Свой",
+        "6":"Выбрать вид транспорта Такси"   
+    },
+    "Ожидаемый_результат_тест_кейса":"В блоке вывода результа отобразится корректное название выбранного вида транспорта 'Такси', картинка такси, кнопка 'Вызвать такси'"
 }
